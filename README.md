@@ -22,7 +22,7 @@
 
 ```
 npm info it worked if it ends with ok
-npm info using npm@2.7.1
+npm info using npm@2.8.3
 npm info using node@v0.10.35
 npm WARN package.json npm-ssh-controlmaster@3.0.0 No repository field.
 npm info preinstall npm-ssh-controlmaster@3.0.0
@@ -30,15 +30,22 @@ npm WARN package.json test-repo-one@1.0.0 No description
 npm WARN package.json test-repo-one@1.0.0 No repository field.
 npm WARN package.json test-repo-two@1.0.0 No description
 npm WARN package.json test-repo-two@1.0.0 No repository field.
-npm info git [ 'config', '--get', 'remote.origin.url' ]
-npm info git [ 'config', '--get', 'remote.origin.url' ]
-npm info git [ 'fetch', '-a', 'origin' ]
-npm info git [ 'fetch', '-a', 'origin' ]
+npm info git [ 'clone',
+npm info git   '--template=/Users/aleksey/.npm/_git-remotes/_templates',
+npm info git   '--mirror',
+npm info git   'ssh://git@github.com/lxe/test-repo-one.git',
+npm info git   '/Users/aleksey/.npm/_git-remotes/ssh-git-github-com-lxe-test-repo-one-git-501932d7' ]
+npm info git [ 'clone',
+npm info git   '--template=/Users/aleksey/.npm/_git-remotes/_templates',
+npm info git   '--mirror',
+npm info git   'ssh://git@github.com/lxe/test-repo-two.git',
+npm info git   '/Users/aleksey/.npm/_git-remotes/ssh-git-github-com-lxe-test-repo-two-git-58c17dcf' ]
 npm info git [ 'rev-list', '-n1', 'master' ]
 npm info git [ 'clone',
 npm info git   '/Users/aleksey/.npm/_git-remotes/ssh-git-github-com-lxe-test-repo-two-git-58c17dcf',
-npm info git   '/var/folders/zl/41hpvlz54xg0d603wxfqhlf80000gn/T/npm-92915-88608997/git-cache-556d6880952b/fc06ac925bc46dd17f72f71441c7e9f0fc18e61e' ]
+npm info git   '/var/folders/zl/41hpvlz54xg0d603wxfqhlf80000gn/T/npm-18567-211df082/git-cache-8b59285f1293/fc06ac925bc46dd17f72f71441c7e9f0fc18e61e' ]
 npm info git [ 'checkout', 'fc06ac925bc46dd17f72f71441c7e9f0fc18e61e' ]
+npm info already installed test-repo-two@1.0.0
 
 ...
 ```
