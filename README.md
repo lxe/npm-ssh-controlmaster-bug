@@ -1,4 +1,4 @@
-# []
+# [npm issue 7979](https://github.com/npm/npm/issues/7979)
 
 ## Steps to reproduce:
 
