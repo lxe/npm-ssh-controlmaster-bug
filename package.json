@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "npm-ssh-controlmaster-one": "git://github.com/lxe/npm-ssh-controlmaster-bug.git#v1.0.0",
-    "npm-ssh-controlmaster-two": "git://github.com/lxe/npm-ssh-controlmaster-bug.git#v2.0.0"
+    "test-repo-one": "git+ssh://git@github.com/lxe/test-repo-one.git#master",
+    "test-repo-two": "git+ssh://git@github.com/lxe/test-repo-two.git#master"
   }
 }
