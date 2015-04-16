@@ -1,5 +1,5 @@
 {
-  "name": "npm-ssh-controlmaster",
+  "name": "npm-ssh-controlmaster-two",
   "version": "2.0.0",
   "description": "Demonstrates the race condition when downloading multiple packages from the same ssh host when ssh controlmaster is enabled",
   "main": "index.js",
